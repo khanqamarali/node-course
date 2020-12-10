@@ -1,5 +1,10 @@
 console.log('Hello from Utils')
 
-const name = 'ali'
+const fname = 'ali'
 
-module.exports = name
+const add = function(a,b)
+{
+
+    return a+b
+}
+module.exports = add
